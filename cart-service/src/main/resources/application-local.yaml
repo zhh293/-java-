@@ -1,0 +1,11 @@
+hm:
+  db:
+
+    host: localhost
+    pw: 123456
+    database: hm-cart
+    username: root
+  swagger:
+    package: com.hmall.cart.controller
+
+

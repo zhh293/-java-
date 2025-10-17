@@ -1,0 +1,16 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true
+hm:
+  db:
+    host: 192.168.200.130
+    pw: 123
+    database: hm-cart
+    username: root
+  swagger:
+    project: com.hmall.cart.controller
